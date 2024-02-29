@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Track Your Shipment</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Your Brand Name</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+
+    <div class="container py-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-8 shadow-sm p-4 rounded">
+          <h2 class="text-center mb-4">Track Your Shipment</h2>
+          <form>
+            <div class="row mb-3">
+              <label for="trackingNumber" class="col-sm-3 col-form-label"
+                >Tracking Number:</label
+              >
+              <div class="col-sm-9">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="trackingNumber"
+                  placeholder="Enter your tracking number"
+                />
+              </div>
+            </div>
+            <div class="row mb-3">
+              <div class="col-sm-12 text-center">
+                <button type="submit" class="btn btn-primary px-4">
+                  Track Shipment
+                </button>
+              </div>
+            </div>
+          </form>
+          <hr />
+          <div id="shipmentStatus" class="text-center">
+            <p class="text-muted">
+              Enter your tracking number and click "Track Shipment" to see the
+              status of your delivery.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        
+        <footer class="footer py-5 bg-dark text-white position-relative">
+            <div class="container">
+              <div class="row d-flex justify-content-between align-items-center">
+                <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+                  <img src="logo.png" alt="Your Company Logo" class="img-fluid mb-3" style="width: 150px;">
+                  <p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec odio dui.</p>
+                  <a href="#" class="text-white text-decoration-none"><i class="fa fa-envelope me-2"></i>info@yourcompany.com</a>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase text-white mb-3">Quick Links</h5>
+                  <ul class="list-unstyled text-white-50">
+                    <li><a href="#" class="text-white text-decoration-none">Home</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">About Us</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Services</a></li>
+                    <li><a href="#" class="text-white text-decoration-none">Contact</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-3 col-sm-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase text-white mb-3">Subscribe</h5>
+                  <p class="text-white-50">Sign up for our newsletter to receive updates and news.</p>
+                  <form>
+                    <div class="mb-3">
+                      <input type="email" class="form-control rounded-pill p-3" placeholder="Enter your email address">
+                    </div>
+                    <button type="submit" class="btn btn-primary rounded-pill px-4">Subscribe</button>
+                  </form>
+                </div>
+              </div>
+              <hr class="text-white my-4">
+              <div class="row py-2 d-flex justify-content-between align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                  <p class="mb-0 text-white-50">&copy; 2024 Your Company Name. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center justify-content-md-end">
+                  <a href="#" class="text-white text-decoration-none me-4"><i class="fa fa-phone"></i> +123 456 7890</a>
+                  <a href="#" class="text-white text-decoration-none"><i class="fa fa-map-marker-alt"></i> 123 Main St, City, State ZIP</a>
+                </div>
+              </div>
+            </div>
+          </footer>
+    
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jY38PbOMzOpBoA//LtsF5sxR8zNgz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

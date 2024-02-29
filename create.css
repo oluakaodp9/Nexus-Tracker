@@ -1,0 +1,72 @@
+.shipment-info{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  
+  #shipment.shipment-info {
+    margin: 0 auto;
+  }
+  .uh1{
+    text-align:center;
+  }
+  #shipment.shipment-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 80vw; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 0 auto;  
+  }
+  
+  #shipment.shipment-info span {
+    display: block;    
+    margin-bottom: 5px; 
+  }
+  
+  #shipment.shipment-info input {
+    width: 100%;       
+    padding: 8px;      
+    border: 1px solid #ccc;  
+    border-radius: 5px; 
+  }
+  
+  #shipment.shipment-info h1 {
+    margin-top: 20px;  
+    font-weight: bold;
+  }
+  
+  .backbtn{
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+  
+  }
+  .backbtn:hover {
+    background-color: #f5f5f5; 
+  }
+  
+  #shipment.shipment-info button {
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+  
+  #shipment.shipment-info button:hover {
+    background-color: #f5f5f5; 
+  }
+  
+  #create-button {
+    margin-top: 20px;
+  }
